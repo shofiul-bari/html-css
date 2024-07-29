@@ -1,0 +1,862 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* navbar section */
+.navbar{
+     display: flex;
+    width: 100%;
+    height: auto;
+
+    border:black solid 1px ;
+    background-color: #e6f7f7;
+     
+    & h2{
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .dropdaoun{
+      
+        & ul{
+
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            position: absolute;
+            right: 40%;
+            padding: 15px;
+            gap: 10px;
+            cursor: pointer;
+        }
+    }
+
+    .button{
+      
+padding: 15px;
+
+        .button1{
+         position: absolute;
+           right: 130px;
+           border-radius: 10px;
+           padding: 3px 6px;
+           background-color: #b8e6e6;
+           border: none;
+           cursor: pointer;
+        }
+        
+
+        .button2{
+            position: absolute;
+            right: 40px;
+            padding: 4px 4px;
+            border-radius: 10px;
+            background-color:black ;
+            color: wheat;
+            border: none;
+            cursor: pointer;
+        }
+        & img{
+            position: absolute;
+            width: 20px;
+            right: 10px;
+            cursor: pointer;
+            
+        } 
+    }
+
+}
+
+/* benar section*/
+.benar{
+
+   
+    width: 100%;
+    height: 700px;
+   border: 2px solid ;
+    position: relative;
+
+
+    
+
+    & img{
+         width: 100%;
+        height: 100%; 
+       object-fit: cover;
+        position: absolute;
+        z-index: -1;
+        
+    }
+
+    & div{
+
+      
+      
+       display: flex;
+       justify-content: center;
+       margin-top: 200px ;
+    
+       & form{
+        
+       
+        padding: 30px;
+        background-color: wheat;
+        
+
+        & h2{
+            text-align: center;
+        }
+
+        & select{
+            padding: 3px 30px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        & input{
+            width: 400px;
+            height: 23px;
+            text-align: center;
+            border-radius: 5px;
+            border: none;
+        }
+        
+        .submit{
+            padding: 5px  27px;
+            border-radius: 13px;
+            border: none;
+            background-color: #b8e6e6;
+        }
+
+
+       
+
+    }
+}
+
+
+.qursin{
+    position: absolute;
+    top: 500px;
+    left: 46%;
+    background-color: transparent;
+    border: #b8e6e6 solid 3px;
+    padding: 6px;
+    border-radius:13px ;
+    color:black;
+    font-size: large;
+    cursor: pointer;
+ }
+}
+
+/*  cryptio section */
+
+.cryptio{
+    width: 100%;
+    height: 100%;
+ background-color: #FDE24F;
+
+
+ & h3{
+    text-align: center;
+    padding: 25px;
+ }
+
+ & div{
+    width: 90%;
+    height: auto;
+   margin:0 auto ;
+   padding: 20px 0px;
+
+    & img{
+        width: 100%;
+        height: 100%;
+       object-fit: cover;
+
+    }
+ }
+    
+}
+
+/* target section */
+
+.target{
+width: 100%;
+height: 700px;
+
+
+
+
+    & h3{
+       padding: 25px;
+    }
+
+    .content{
+         display: flex;
+         padding: 40px;
+         gap: 10px;
+         justify-content: center;
+         
+   
+        .box1{
+            padding: 20px;
+            width: 300px;
+            height: auto;
+            
+            position: relative;
+
+            .image{
+                display: flex;
+                justify-content: center;
+                padding: 10px;
+
+                & img{
+                    width:40px ;
+                }
+    
+   
+   
+            }
+
+            & h3{
+               font-size: 20px;
+               text-align: center;
+            }
+
+   
+           .p1{
+              text-align: center;
+              font-size: 20px;
+            }
+
+            .p2{
+               text-align: center;
+               border-bottom: 2px solid black;
+    
+            }
+
+        }
+
+        .box2{
+            padding: 20px;
+            width: 300px;
+            height: auto;
+           
+            position: relative;
+
+            .image{
+                display: flex;
+                justify-content: center;
+                padding: 10px;
+
+                & img{
+                    width:40px ;
+                }
+    
+   
+   
+            }
+
+            & h3{
+               font-size: 20px;
+               text-align: center;
+            }
+
+   
+           .p1{
+              text-align: center;
+              font-size: 20px;
+            }
+
+            .p2{
+               text-align: center;
+               border-bottom: 2px solid black;
+    
+            }
+
+        }
+
+
+        .box3{
+            padding: 20px;
+            width: 300px;
+            height: auto;
+            
+            position: relative;
+
+            .image{
+                display: flex;
+                justify-content: center;
+                padding: 10px;
+
+                & img{
+                    width:40px ;
+                }
+    
+   
+   
+            }
+
+            & h3{
+               font-size: 20px;
+               text-align: center;
+            }
+
+   
+           .p1{
+              text-align: center;
+              font-size: 20px;
+            }
+
+            .p2{
+               text-align: center;
+               border-bottom: 2px solid black;
+    
+            }
+
+        }
+
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+       
+
+        & button{
+            padding: 6px  10px;
+            border-radius: 40px;
+            background-color: transparent;
+            cursor: pointer;
+        }
+    }
+
+}
+
+/* this is buy sell section */
+
+.buy-sell{
+display : flex;
+justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #F8F8F8;
+
+   gap: 40px;
+   border-top:1px solid black ;
+
+   .buy{   
+      
+    
+    
+
+
+      & h3{
+          padding: 30px;
+        }
+
+        .box{
+           
+            
+
+           
+            .box1{
+                padding: 30px 20px;
+                border: 2px solid black;
+                display: flex;
+                width: 500px;
+                height: 70px;
+                align-items: center;
+                border-radius: 10px;
+                margin-bottom: 20px;
+                & img{
+                    width: 50px;
+                    height: 50px;
+                    border-radius:50% ;
+        
+                 }
+     
+             }
+     
+     
+             .box2{
+                 padding: 30px 20px;
+                 border: 2px solid black;
+                 display: flex;
+                 width: 500px;
+                 height: 70px;
+                 align-items: center;
+                 border-radius: 10px;
+                 margin-bottom: 20px;
+                 & img{
+                     width: 50px;
+                     height: 50px;
+                     border-radius:50% ;
+         
+                  }
+      
+              }
+     
+     
+              .box3{
+                 padding: 30px 20px;
+                 border: 2px solid black;
+                 display: flex;
+                 width: 500px;
+                 height: 70px;
+                 align-items: center;
+                 border-radius: 10px;
+                 margin-bottom: 20px;
+                 & img{
+                     width: 50px;
+                     height: 50px;
+                     border-radius:50% ;
+         
+                  }
+      
+              }
+
+        }
+
+        .button{
+            display: flex;
+            justify-content: center;
+            padding: 30px 0px;
+            & button{
+                padding: 10px 20px;
+                border-radius: 40px;
+                text-align: center;
+                cursor: pointer;
+                background-color: black;
+                color: wheat;
+        
+        
+               }
+        }
+
+      
+
+
+   }
+
+
+   .sell{   
+      
+    
+    
+
+
+    & h3{
+        padding: 30px;
+      }
+
+        .box{
+
+         
+          .box1{
+              padding: 30px 20px;
+              border: 2px solid black;
+              display: flex;
+              width: 500px;
+              height: 70px;
+              align-items: center;
+              border-radius: 10px;
+              margin-bottom: 20px;
+              & img{
+                  width: 50px;
+                  height: 50px;
+                  border-radius:50% ;
+      
+               }
+   
+           }
+   
+   
+           .box2{
+               padding: 30px 20px;
+               border: 2px solid black;
+               display: flex;
+               width: 500px;
+               height: 70px;
+               align-items: center;
+               border-radius: 10px;
+               margin-bottom: 20px;
+               & img{
+                   width: 50px;
+                   height: 50px;
+                   border-radius:50% ;
+       
+                }
+    
+            }
+   
+   
+            .box3{
+               padding: 30px 20px;
+               border: 2px solid black;
+               display: flex;
+               width: 500px;
+               height: 70px;
+               align-items: center;
+               border-radius: 10px;
+               margin-bottom: 20px;
+               & img{
+                   width: 50px;
+                   height: 50px;
+                   border-radius:50% ;
+       
+                }
+    
+            }
+
+        }
+
+        .button{
+            display: flex;
+            justify-content: center;
+            padding: 30px 0px;
+            & button{
+                padding: 10px 20px;
+                border-radius: 40px;
+                text-align: center;
+                background-color: black;
+                color: wheat;
+                cursor: pointer;
+        
+        
+               }
+        }
+
+
+
+
+
+
+     
+
+
+    }
+
+    
+
+    
+}
+
+/* offer section */
+
+.offer{
+    background-color: #CFBAFF;
+    width: 100%;
+    height: 250px;
+
+    .content{
+       padding: 50px 50px;
+
+        & h3{
+           font-size: 30px;
+           text-align: center;
+        }
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+        padding-top:20px ;
+       & button{
+        padding: 8px 30px ;
+        border-radius: 40px;
+        background-color: black;
+        color: wheat;
+        cursor: pointer;
+       }
+
+    }
+
+
+}
+
+/* footer section */
+
+footer{
+    background-color: black;
+    color: wheat;
+
+    .company{
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        padding: 30px;
+        border-bottom:1px solid wheat;
+
+       
+        .box2{
+           & h2{
+            margin-bottom:20px ;
+           }
+        }
+
+        .box3{
+            & h2{
+             margin-bottom:20px ;
+            }
+         }
+
+    }
+
+    .docoment{
+        padding: 30px;
+
+        & p{
+            text-align: center;
+        }
+    }
+}
+
+
+/* responsiv fore midiwa */
+
+@media (max-device-width:767px){
+
+    /* navbar section */
+
+
+    .navbar{
+        display: flex;
+       width: 100%;
+       height: auto;
+   
+       border:black solid 1px ;
+       background-color: #e6f7f7;
+        
+       & h2{
+           font-size: 15px;
+           padding: 15px;
+       }
+   
+       .dropdaoun{
+         
+           & ul{
+   
+              display: none;
+           }
+       }
+   
+    }
+
+    /* benar section*/
+.benar{
+
+   
+    width: 100%;
+    height: 700px;
+   border: 2px solid ;
+    position: relative;
+
+
+    
+
+    & img{
+         width: 100%;
+        height: 100%; 
+       object-fit: cover;
+        position: absolute;
+        z-index: -1;
+        
+    }
+
+    & div{
+
+      
+      
+       display: flex;
+       justify-content: center;
+       margin-top: 200px ;
+    
+       & form{
+        position: absolute;
+        top: 70px;
+        
+       
+       
+        
+
+       
+
+        & select{
+           
+            width: 300px;
+            margin-bottom: 20px;
+        }
+
+        & input{
+            width: 300px;
+           
+            margin-bottom:20px ;
+        }
+        
+        .submit{
+           
+            width: 300px;
+          
+        }
+
+
+       
+
+    }
+}
+
+
+
+}
+
+/* target section */
+
+.target{
+    
+    
+    
+    
+    
+        & h3{
+           text-align: center;
+        }
+    
+        .content{
+             
+             
+       
+            .box1{
+              
+                width: 100%;
+              
+    
+                
+       
+       
+                }
+    
+                & h3{
+                   font-size: 20px;
+                   text-align: center;
+                   width: 100%;
+                }
+    
+       
+               .p1{ width: 100%;
+                  text-align: center;
+                  font-size: 20px;
+                }
+    
+                .p2{ width: 100%;
+                   text-align: center;
+                   border-bottom: 2px solid black;
+        
+                }
+    
+            }
+    
+            .box2{
+                padding: 20px;
+                width: 100%;
+                height: auto;
+               
+                position: relative;
+    
+                .image{
+                    display: flex;
+                    justify-content: center;
+                    padding: 10px;
+    
+                    & img{
+                        width:40px ;
+                    }
+        
+       
+       
+                }
+    
+                & h3{
+                   font-size: 20px;
+                   text-align: center;
+                }
+    
+       
+               .p1{
+                  text-align: center;
+                  font-size: 20px;
+                }
+    
+                .p2{
+                   text-align: center;
+                   border-bottom: 2px solid black;
+        
+                }
+    
+            }
+    
+    
+            .box3{
+                padding: 20px;
+                width: 300px;
+                height: auto;
+                
+                position: relative;
+    
+                .image{
+                    display: flex;
+                    justify-content: center;
+                    padding: 10px;
+    
+                    & img{
+                        width:40px ;
+                    }
+        
+       
+       
+                }
+    
+                & h3{
+                   font-size: 20px;
+                   text-align: center;
+                }
+    
+       
+               .p1{
+                  text-align: center;
+                  font-size: 20px;
+                }
+    
+                .p2{
+                   text-align: center;
+                   border-bottom: 2px solid black;
+        
+                }
+    
+            }
+    
+        }
+    
+        .button{
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+           z
+    
+            & button{
+                padding: 6px  10px;
+                border-radius: 40px;
+                background-color: transparent;
+                cursor: pointer;
+            }
+        }
+    
+    }
+    
+
+}
